@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Form } from "@/components/ui/form";
 import Link from "next/link";
 import { toast } from "sonner";
-import FormField from "./FormField";
+import FormField from "../app/components/FormField";
 import { useRouter } from "next/navigation";
 
 const authFormSchema = (type: FormType) => {
